@@ -1,0 +1,32 @@
+import java.util.Scanner;
+
+class Main {
+  public static void main(String[] args) {
+
+      System.out.println("bem vindo ao clculador da area!");
+    
+    Scanner input = new Scanner (System.in);
+    boolean triangulo = true ;
+
+    //  COLETANDO OS VALORES AO USUARIO 
+if ( triangulo ) {
+
+  int b, h, a;
+  System.out.println("informe o valor de b= base:"); 
+  b= input.nextInt();
+
+  System.out.println("informe o valor de b =base:");
+  b= input.nextInt();
+
+  System.out.println("informe o valor de h = altura:");
+  h=input.nextInt();
+
+  //imprima o valor na tela 
+  a= (b*h)/2;
+
+  System.out.println("o valor dado e b: "+h);
+  System.out.println("a area do triangulo e: " +a);
+  }
+  
+}
+}

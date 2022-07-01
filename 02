@@ -1,0 +1,25 @@
+00import java.util.Scanner;
+class Main {
+  public static void main(String[] args) {
+  Scanner sc = new Scanner(System.in); 
+  System.out.printf ("Escreva 3 numeros para serem somados");
+  int n1= sc.nextInt();
+  int n2= sc.nextInt();
+  int n3= sc.nextInt();
+  int soma = n1 + n2 + n3 ;
+  System.out.println("N1=%d",n1);
+  System.out.println("N2=%d",n2);
+  System.out.println("N3=%d",n3);
+  System.out.println("a soma dos numeros sao:%d%n",soma);
+  if (n1>n2&&n2>n3){
+    System.out.println(n1);
+
+  }
+  else if (n2 >n1 && n2 >n3 ){
+    System.out.println(n2);
+  }
+  else if (n3 > n1 && n3 > n2){
+System.out.println(n3);
+  }
+ }
+}
